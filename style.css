@@ -1,0 +1,69 @@
+body{
+    height: 100%;
+}
+.Titlename:hover{
+    font-weight: extra-bold;
+    cursor: pointer;
+}
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 4%;
+    width: 10rem;
+    height: 10rem;
+    border-radius: 15%;    
+}
+#cntname, #rectname{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+#cntname{
+    font-size: 2rem;
+    margin-bottom: 1px;
+}
+.btns{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 50px;
+    letter-spacing: 60px;
+    margin-top: 55px; 
+}
+#backwardbtn, #playbtn, #forwardbtn{
+    cursor: pointer;
+
+}
+.timer{
+    display: flex;
+    justify-content: center;
+}
+p{
+    font-size: 1.5rem;
+    margin: 5px;
+    color: #000;
+    font-weight: bold;
+    text-align: center;
+}
+#timerSlider{
+    width: 500px;
+    accent-color: red;
+    cursor: pointer;
+}
+
+
+.volume{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    font-size: x-large;
+}
+#vlm{
+    cursor: pointer;
+}
+.volume i{
+    margin: 0 10px;
+    cursor: pointer;
+}
